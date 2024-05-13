@@ -1,1 +1,350 @@
-/* место для вашего кода */
+.content-section {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    column-gap: 36px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 92px 24px 96px;
+    font-size: 18px;
+}
+
+.header_menu-list {
+    display: flex;
+    column-gap: 31px;
+    padding-left: 26.52px;
+}
+
+.header_links-list-item-no-marker {
+    list-style: none;
+}
+
+.header_link_active {
+    text-decoration: none;
+}
+
+.header_links-list-item {
+    list-style: circle;
+}
+
+.header_logo-image {
+    Width: 148px;
+    Height: 105px;
+    display: block;
+}
+
+.header_address {
+    max-width: 240px;
+    line-height: 24.3px;
+    letter-spacing: 0.18px;
+    margin-left: auto;
+    margin-right: 26px;
+}
+
+.adress a {
+    text-decoration: none;
+    border-bottom: 1px black solid;
+    justify-self: start;
+}
+
+.cover {
+    display: grid;
+    max-width: 1100px;
+    max-height: 757px;
+    background-image: url("../images/cover.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(0 0 0 / 0.6);
+    z-index: 2;
+}
+
+.cover_card-title {
+    display: grid;
+    height: 100%;
+    font-size: 100px;
+    margin: 165px 50px 237px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    gap: 20px;
+    z-index: 3;
+    color: white;
+}
+
+.aligned-text_left {
+    text-align: left;
+    line-height: 115px;
+}
+
+.aligned-text_right {
+    text-align: right;
+    line-height: 100px;
+}
+
+.aligned-text_center {
+    text-align: center;
+    line-height: 100px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.cover-description {
+    display: flex;
+    gap: 79px;
+    margin-top: 655px;
+    margin-left: 78px;
+    margin-right: 50px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.cover-description-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    padding-top: 12px;
+    color: white;
+    word-spacing: 18.5px;
+    z-index: 3;
+}
+
+.word-spacing-cover-description {
+    letter-spacing: 1.1em;
+}
+
+.cover-bet-button {
+    display: flex;
+    font-weight: 500;
+    font-size: 22px;
+    width: 256px;
+    height: 51px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    z-index: 3;
+    text-decoration: none;
+    border: 1px white solid;
+    padding-top: 11px;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.lots {
+    padding: 179px 24px 146px 24px;
+}
+
+.lots-heading {
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    color: black;
+    line-height: 46.96px;
+}
+
+.lots-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 25px;
+    padding: 27px 0 30px;
+}
+
+.lots-card-list-item {
+    flex-grow: 1;
+    max-width: 334px;
+    max-height: 563px;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+}
+
+.lots-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 0.6);
+    z-index: 2;
+    position: absolute;
+}
+
+.card-tittle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 51px 40px 0;
+    z-index: 3;
+}
+
+.card-text {
+    font-size: 20px;
+    line-height: 120%;
+    padding: 0 40px 48px 40px;
+    z-index: 3;
+}
+
+.card-type {
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image-film {
+    background-image: url(../images/card-lot-01.jpg);
+}
+
+.card-image-book {
+    background-image: url(../images/card-lot-02.jpg); 
+}
+
+.card-image-picter {
+    background-image: url(../images/card-lot-03.jpg);
+}
+
+.lots_look-more-link {
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    margin: 30px 102px 2px 40px;
+}
+
+.about {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1052px;
+    max-height: 595px;
+}
+
+.about-column-logo {
+    padding: 35px 0 320px 47px;
+}
+
+.about-logo {
+    display: flex;
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.about-logo-image {
+    width: 149px;
+    height: 114px;
+    margin: auto;
+}
+
+.about-column-text {
+    display: flex;
+    flex-direction: column;
+    width: 693px;
+    height: 449px;
+    margin-top: 136px;
+    margin-left: 72px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.text-paragraph-spesial {
+    letter-spacing: 0.01em;
+    padding-bottom: 24px;
+}
+
+.text-paragraph {
+    padding-right: 0px;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    column-gap: 36px;
+    justify-content: space-between;
+    margin: 180px 50px 88px;
+    font-size: 18px;
+}
+
+.footer_menu {
+    order: 2;
+}
+
+.footer_menu-list {
+    display: flex;
+    flex-direction: column;
+    column-gap: 31px;
+    text-align: center;
+}
+
+.footer_links-list-item-no-marker{
+    list-style: none;
+}
+
+.footer_link_active {
+    text-decoration: none;
+}
+
+.footer_social-list {
+    display: flex;
+    justify-content: space-between;
+    order: 3;
+    width: 240px;
+    height: 48px;
+}
+
+.footer_social-logo {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.footer_address {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0.18px;
+    max-width: 240px;
+    max-height: 98px;
+}
